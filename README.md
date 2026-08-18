@@ -1,11 +1,6 @@
 # 基于实体建模方法的FDM增材制造模拟系统
 > 本科毕业设计项目，C++ / Qt / OpenGL 实现的轻量化FDM 3D打印CAM仿真验证平台，面向切片‑支撑‑填充‑打印模拟全链路算法研究与可视化验证。
 
-[![毕业设计](https://img.shields.io/badge/毕业设计‑软件工程-blue)]()
-[![Language](https://img.shields.io/badge/language-C++‑17-orange)]()
-[![UI](https://img.shields.io/badge/GUI‑Qt‑green)]()
-[![Render](https://img.shields.io/badge/Render‑OpenGL‑purple)]()
-
 ## 📖 项目简介
 传统减材CAM仿真聚焦刀具切削去除材料；而FDM增材制造是自底向上逐层堆积成型，二者几何演化逻辑完全不同，不能直接复用铣削类仿真框架。
 
@@ -69,3 +64,15 @@
 ├── assets            # 测试模型 obj
 ├── CMakeLists.txt    # 编译配置
 └── docs              # 论文、任务书、开题报告文档
+<img width="1121" height="594" alt="image" src="https://github.com/user-attachments/assets/4557f2b1-d9e8-4bbc-bcc3-0ceb9236fab3" />
+<img width="650" height="574" alt="image" src="https://github.com/user-attachments/assets/e04e7f58-df92-438e-84d8-f522c59c3c9a" />
+<img width="1088" height="547" alt="image" src="https://github.com/user-attachments/assets/2bc3cd89-e770-40ad-911a-7788129a5f83" />
+<img width="1085" height="538" alt="image" src="https://github.com/user-attachments/assets/6303e7a4-2096-4311-b3fc-9f932e449f81" />
+<img width="1112" height="581" alt="image" src="https://github.com/user-attachments/assets/ecab1cde-c8a7-4fe4-95da-91b1353de217" />
+<img width="1127" height="561" alt="image" src="https://github.com/user-attachments/assets/6cae9941-9259-430a-b8d9-12cb467df06f" />
+
+<img width="1055" height="580" alt="image" src="https://github.com/user-attachments/assets/9bfd6f62-4a95-4ea3-bbe0-5240cb5ef745" />
+
+
+
+
