@@ -49,21 +49,6 @@
 - **模型解析**：Assimp
 - **数学库**：GLM
 - **工程构建**：CMake，依赖管理vcpkg
-
-## 📂 项目模块结构
-├── dataStructure     # 数据层：网格、点、切片、路径、模拟状态核心数据结构
-├── process           # 算法处理层：切片、悬垂检测、支撑生成、路径规划核心算法
-│   ├─ Slicer.cpp/h               # 切片算法（均匀 / 自适应、八叉树剪枝、拓扑拼环）
-│   ├─ OverhangDetector.h         # 悬垂检测逻辑
-│   ├─ SupportCylinderGenerator.h # 圆柱支撑生成
-│   └─ PathPlanner.h              # 填充与路径规划
-├── ui                # UI 与渲染交互层 Qt+OpenGL
-│   ├─ mainwindow.cpp/h
-│   ├─ openglwidget.cpp/h         # OpenGL 渲染、模拟状态机、物理沉积渲染
-│   └─ paramwidget.cpp/h          # 工艺参数控制面板
-├── assets            # 测试模型 obj
-├── CMakeLists.txt    # 编译配置
-└── docs              # 论文、任务书、开题报告文档
 <img width="1121" height="594" alt="image" src="https://github.com/user-attachments/assets/4557f2b1-d9e8-4bbc-bcc3-0ceb9236fab3" />
 <img width="650" height="574" alt="image" src="https://github.com/user-attachments/assets/e04e7f58-df92-438e-84d8-f522c59c3c9a" />
 <img width="1088" height="547" alt="image" src="https://github.com/user-attachments/assets/2bc3cd89-e770-40ad-911a-7788129a5f83" />
